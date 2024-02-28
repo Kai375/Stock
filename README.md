@@ -1,4 +1,4 @@
-# Stock OOPs (Object-Oriented Programming System).
+# Inventory OOPs (Object-Oriented Programming System).
 
 # Inventory management project, made with Java.
 

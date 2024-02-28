@@ -66,7 +66,7 @@ FoodItem class will not assume that the parameters given by the user are valid e
 
 * It has two constructors:
 
-   First constructor gets the eight variables that comprise the object. NOTICE: Min and max temperatures are received as objects!
+   First constructor gets the eight variables that comprise the object. NOTICE: Expiry and Production dates are received as objects!
 
    If expiry date of a product is before its production date, then its expiry date will be changed to one day after its production date.
 

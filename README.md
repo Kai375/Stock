@@ -1,4 +1,4 @@
-# Inventory OOPs (Object-Oriented Programming System).
+# Inventory implementation with OOPs (Object-Oriented Programming System).
 
 # Inventory management project, made with Java.
 

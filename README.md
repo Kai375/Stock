@@ -36,7 +36,7 @@ int _year: 4 digit positive integer.
 
 * difference methood: Gets a Date object as parameter and compute the number of days between the date of the object that the methood is called upon, and the date of the object that it received as parameter. The result value must be Non-negative.
 
-* toString methood: Returns a formatted date string- day/month/year as dd/mm/yyyy.
+* toString methood: Returns a formatted date string- day/month/year <-> dd/mm/yyyy.
 
 * tomorrow methood: Returns the following day of the date of the object that the methood is called upon. The returned date is a new date- the object that the methood is called upon remains unchanged!
 
@@ -45,11 +45,11 @@ int _year: 4 digit positive integer.
 
 
 
-# Item Class description:
+# FoodItem Class description:
 
 FoodItem Class is responsible for creating a valid food object.
 
-A food object comprise from:
+A FoodItem object comprise from:
 
 1. Name.
 2. Catalogue number.

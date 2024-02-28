@@ -16,9 +16,9 @@ Date Class recognizes leap years.
 
 It has the following three instance variables:
 
-int _day: (1 <= _day <= 31).
-int _month: (1 <= _month <= 12).
-int _year: 4 digit positive integer.
+* day: 1 <= day <= 31.
+* month: 1 <= month <= 12.
+* year: 4 digit positive integer.
 
 * It has two constructors:
 

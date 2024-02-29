@@ -36,7 +36,7 @@ It has the following three instance variables:
 
 * after method: Checks if the date of the object that the methood is called upon is after the date of the object that received as parameter. *The after methood nust use only the before methood!* It can not use the equal methood nor compute an answer using variable values.
 
-* difference method: Gets a Date object as parameter and compute the number of days between the date of the object that the methood is called upon, and the date of the object that it received as parameter. The result value must be Non-   negative.
+* difference method: Gets a Date object as parameter and compute the number of days between the date of the object that the methood is called upon, and the date of the object that it received as parameter. The result value must be Non-negative.
 
 * toString method: Returns a formatted date string- day/month/year <-> dd/mm/yyyy.
 
@@ -140,7 +140,7 @@ Stock Class has a default constructor that create an object in which there is an
       
 * howMany method: Gets a temperature and returns the number of items that can be stored in stock (quantities of *same* items in different slots count as total). If there is non, then return zero.
 
-* removeAfterDate method: Gets as parameter a Date object 'd' and removes from stock any item that its expiry date is before date 'd'. Take care of any possible 'holes' that might occure.
+* removeAfterDate method: Gets as parameter a Date object 'd' and removes from stock any item that its expiry date is before date 'd'.  Take care of any possible 'holes' that might occure.
 
 * howManyPieces method: Returns the number of items that are in stock, or return zero if there is non.
 

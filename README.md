@@ -122,11 +122,11 @@ Stock Class has a default constructor that create an object in which there is an
 
     The method returns true upon successful operation, and false otherwise.
 
-    NOTICE: Every item with the same name and catalogue number that has different expiry\production date will receive a new slot in stock, and its quantity will not be added to an existing item quantity.
+    NOTICE: Every item with the same name and catalogue number that has different expiry/production date will receive a new slot in stock, and its quantity will not be added to an existing item quantity.
   
     In this case, the new item must be inserted before the already existing one.
   
-    * If there is an items with the same name and catalogue number, it can be automatically assumed that if there is a difference between them, then it is because the expiry\production dates only.
+    * If there is an items with the same name and catalogue number, it can be automatically assumed that if there is a difference between them, then it is because the expiry/production dates only.
  
 * order method: Returns a string that contains a list of items name that needs to be restocked. An item will enter the list if its quantity is less then parameter *amount* that the method got.
 

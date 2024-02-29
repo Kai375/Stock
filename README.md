@@ -77,9 +77,9 @@ FoodItem class will not assume that the parameters given by the user are valid e
 
      If cataloge number is not a positive 4 digit number, then mark it as 9999.
 
-     If quantity is negative, then assigne to it the value 0.
+     If quantity is negative, then assigne to it the value <- 0.
 
-     If the price is negative or zero, then assigne it the value 1.
+     If the price is negative or zero, then assigne it the value <- 1.
 
 
     Second constructor is a copy constructor and it gets a copy of a FoodItem object called 'other'.
@@ -90,8 +90,8 @@ FoodItem class will not assume that the parameters given by the user are valid e
 
 * isFresh method: Gets a Date object 'd' as a parameter, and returns true if in this date the FoodItem object is fresh (Expiry date <= some FoodItem object <= Production date). Return false otherwise.
 
-* toString method: Returns a formatted food item string (one line)- FoodItem: milk CatalogueNumber: 1234   ProductionDate: 14/12/2019    ExpiryDate: 21/12/2019    Quantity: 3.
-
+* toString method: Returns a formatted food item string.
+  
 * olderFoodItem method: Gets an 'other' FoodItem object as a parameter, and returns true if the object that the methood is called upon had been produced before the object that received as a parameter.
 
 * howManyItems method: Gets an integer value (currency) and returns the number of (same) *available* items that can be Purchased with it.

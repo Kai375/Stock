@@ -2,9 +2,11 @@
 
 # Inventory management project, made with Java.
 
-Project description:
+# Project description:
 
 The project is separated into several files that coalesce into an inventory management system, each file responsible for a different function in the project and follows Java's OPP concepts.
+
+# classess description:
 
 # Date Class description:
 

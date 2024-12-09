@@ -1,6 +1,4 @@
-# Inventory implementation with OOPs (Object-Oriented Programming System).
-
-# Inventory management project.
+# Inventory management OPP project.
 
 # Project description:
 

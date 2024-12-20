@@ -1,4 +1,4 @@
-# Inventory management OPP project.
+# Inventory management OPP project
 
 # Project description:
 
